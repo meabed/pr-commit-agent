@@ -45,8 +45,8 @@ importers:
         specifier: 1.2.0
         version: 1.2.0(zod@3.24.3)
       openai:
-        specifier: 5.9.0
-        version: 5.9.0(zod@3.24.3)
+        specifier: 5.10.1
+        version: 5.10.1(zod@3.24.3)
       picocolors:
         specifier: 1.1.1
         version: 1.1.1
@@ -3301,8 +3301,8 @@ packages:
     resolution: {integrity: sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==}
     engines: {node: '>=12'}
 
-  openai@5.9.0:
-    resolution: {integrity: sha512-cmLC0pfqLLhBGxE4aZPyRPjydgYCncppV2ClQkKmW79hNjCvmzkfhz8rN5/YVDmjVQlFV+UsF1JIuNjNgeagyQ==}
+  openai@5.10.1:
+    resolution: {integrity: sha512-fq6xVfv1/gpLbsj8fArEt3b6B9jBxdhAK+VJ+bDvbUvNd+KTLlA3bnDeYZaBsGH9LUhJ1M1yXfp9sEyBLMx6eA==}
     hasBin: true
     peerDependencies:
       ws: ^8.18.0
@@ -7825,7 +7825,7 @@ snapshots:
     dependencies:
       mimic-fn: 4.0.0
 
-  openai@5.9.0(zod@3.24.3):
+  openai@5.10.1(zod@3.24.3):
     optionalDependencies:
       zod: 3.24.3
 
